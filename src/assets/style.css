@@ -1,0 +1,19 @@
+.topHead {
+    display: table;
+    width: 100%;
+    height: 693px;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+    background: 
+        linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+        url("back.jpg") no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  
+  
