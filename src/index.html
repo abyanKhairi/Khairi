@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="assets/style.css">
   <title>Khairi</title>
   <script src="https://unpkg.com/alpinejs" defer></script>
-    
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body id="page-top">
     <nav x-data="{ scrolled: false }" @scroll.window="scrolled = (window.scrollY > 50)" :class="scrolled ? 'bg-black' : 'bg-transparent'" class="fixed w-full z-20 top-0 start-0  transition duration-500">
@@ -38,21 +40,41 @@
       </nav>
       
       <header class="topHead">
-        <h1 class="text-5xl font-bold">Abyan Khairi Risha</h1>
-        <p class="py-9 font-medium">Just Play The Game That You Have Started</p>
-        <ul>
-            <li>
-                
+        <h1 class="text-5xl py-10 font-bold">Abyan Khairi Risha</h1>
+        <p class="py-5 text-lg font-medium">Just Play The Game That You Have Started</p>
+        <ul class="flex justify-center pt-6 gap-6">
+            <li class="text-5xl">
+                <i class="fa-brands fa-x-twitter"></i>
+            </li>
+            <li class="text-5xl">
+                <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li class="text-5xl">
+                <a href="https://github.com/abyanKhairi">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            </li>
+            <li class="text-5xl">
+                <i class="fa-brands fa-spotify"></i>    
             </li>
         </ul>
       </header>
 
         <!-- About -->
-         <section id="About" class="">
-
+         <section id="About" class="bg-black pt-10">
+            <h2 class="text-white text-4xl text-center font-medium pb-10">About</h2>
+        <div class="text-white flex-col justify-center text-center ">
+            <h4>Education</h4>
+            <p>SMK LABOR Binaan FKIP UNRI Pekanbaru</p>
+        </div>
          </section>
         <!-- Project -->
-         <section id="Project" class="">
+         <section id="Project" class="bg-black">
 
          </section>
-        <!-- Contact -->
+        <!-- Contact -->
+         <section id="Contact" class="bg-black">
+
+         </section>
+</body>
+</html>
